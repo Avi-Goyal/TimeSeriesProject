@@ -38,9 +38,18 @@ A C++ project for performing transformations and analysis on time series data. T
    cmake --build .
 
 ### Example Usage
-**Loading Data**
+**Loading Data**:
   ```bash
   TimeSeriesTransformations ts("Problem3_DATA.csv");
+```
+
+
+**Calculating Mean**:
+  ```
+  double meanValue;
+  ts.mean(&meanValue);
+  std::cout << "Mean: " << meanValue << std::endl;
+  ```
 
   
 
