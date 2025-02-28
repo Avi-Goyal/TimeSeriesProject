@@ -30,7 +30,21 @@ A C++ project for performing transformations and analysis on time series data. T
    git clone https://github.com/Avi-Goyal/TimeSeriesProject.git
    cd TimeSeriesProject
 
+2. **Build the Project**:
+   ```bash
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
 
+### Example Usage
+**Loading Data**
+  ```bash
+  TimeSeriesTransformations ts("Problem3_DATA.csv");
+
+  
+
+   
 
 
 
